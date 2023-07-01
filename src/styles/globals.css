@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  #__next {
+    @apply bg-gray-900 text-lg text-white;
+  }
+}
